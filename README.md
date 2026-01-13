@@ -77,7 +77,7 @@ terraform apply
 
 # To configure kubectl
 
-aws eks update-kubeconfig --region us-east-1 --name cluster1
+aws eks --region us-east-1 update-kubeconfig --name cluster1
 
 # To check the deployed cluster
 
