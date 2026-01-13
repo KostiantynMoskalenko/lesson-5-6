@@ -82,7 +82,9 @@ aws eks update-kubeconfig --region us-east-1 --name cluster1
 # To check the deployed cluster
 
 kubectl get nodes
+
 #anr/or
+
 kubectl get pods --all-namespaces
 
 ## Important
