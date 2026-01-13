@@ -50,7 +50,7 @@ Default output format: json
 
 \## due to the region is "us-east-1" - default region:
 
-aws s3api create-bucket --bucket mlops-tfstate-kmos --region eu-north-1 --profile kosmos
+aws s3api create-bucket --bucket mlops-tfstate-kmos --region us-east-1 --profile kosmos
 
 
 
